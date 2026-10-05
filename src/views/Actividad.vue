@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Gestión de requisitos y arquitectura de software',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> valorar, a partir de situaciones propias del desarrollo de software, la comprensión integral de los procesos, técnicas y buenas prácticas que sustentan la gestión de requisitos, el modelado y el control del desarrollo, con el fin de evidenciar una aplicación coherente y fundamentada en contextos reales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de la especificación de requisitos de software?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Definir funcionalidades del sistema.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Diseñar la arquitectura.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Implementar el código.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ejecutar pruebas.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +58,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué estándar se utiliza para estructurar una ERS?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'ISO 9001.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'IEEE 830.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'UML.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'SCRUM.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +88,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué componente no pertenece a un informe de requisitos?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Introducción.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Requisitos funcionales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Código fuente.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Restricciones.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +118,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué actividad pertenece al análisis de requisitos?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Programación.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Validación de necesidades.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Despliegue.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Mantenimiento.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +148,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué busca la gestión de requisitos?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Diseñar interfaces.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Controlar cambios en requisitos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ejecutar pruebas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Implementar código.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +178,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué técnica permite priorizar requisitos según importancia?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'UML.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'ER.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'MoSCoW.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Git.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +208,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué permite la trazabilidad de requisitos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Diseñar interfaces.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Relacionar requisitos con otras fases.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Programar código.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ejecutar pruebas.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +238,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué es una matriz de trazabilidad?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Diagrama UML.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Documento de pruebas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Tabla de relaciones de requisitos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Código fuente.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +268,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué representa el modelado en software?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Implementación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pruebas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Representación abstracta del sistema.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Despliegue.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +298,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es un lenguaje de modelado estándar?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Git.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'UML.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'HTML.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'SQL.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +328,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué representa el nivel “Contexto” en el modelo C4?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Código.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Componentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Entorno del sistema.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Base de datos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +358,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué herramienta se utiliza para diagramas UML?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'StarUML.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Excel.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Word.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Notepad.',
               esCorrecta: false,
             },
           ],
@@ -357,20 +388,29 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué representa un caso de uso?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Código.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Prueba.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Base de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Interacción usuario-sistema.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -378,19 +418,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué caracteriza a una historia de usuario?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Lenguaje técnico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diagrama complejo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Código.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Lenguaje natural.',
               esCorrecta: true,
             },
           ],
@@ -399,20 +448,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué herramienta se usa para prototipos visuales?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Figma.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Git.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'MySQL.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Jenkins.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Cuál es la primera fase del ciclo de vida del software?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desarrollo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pruebas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Planificación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mantenimiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué se realiza en la fase de pruebas?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Codificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Validación del sistema.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Diseño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Planificación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué permite el control del proceso de desarrollo?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Detectar desviaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Programar más rápido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crear diagramas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar interfaces.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué es un commit en Git?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Rama.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Error.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Código.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Registro de cambios.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué función cumple GitHub?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar diagramas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Base de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Editor de código.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Repositorio colaborativo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

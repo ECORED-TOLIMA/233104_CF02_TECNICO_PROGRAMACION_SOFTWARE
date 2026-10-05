@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="298" viewBox="0 0 1020 298">
+  <g id="Grupo_1180565" data-name="Grupo 1180565" transform="translate(-290 -4342)">
+    <rect id="Rectángulo_466817" data-name="Rectángulo 466817" width="1020" height="298" rx="16" transform="translate(290 4342)" fill="#c0f6f2"/>
+    <g id="Grupo_1180564" data-name="Grupo 1180564" transform="translate(0 -5270)">
+      <g id="Rectángulo_466302" data-name="Rectángulo 466302" transform="translate(374 9725)" fill="#ffb758" stroke="#0f654d" stroke-width="3">
+        <rect width="216" height="71" rx="14" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="219" height="74" rx="15.5" fill="none"/>
+      </g>
+      <g id="Rectángulo_466304" data-name="Rectángulo 466304" transform="translate(978 9669)" fill="#68eae0" stroke="#0f654d" stroke-width="3">
+        <rect width="248" height="48" rx="14" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="251" height="51" rx="15.5" fill="none"/>
+      </g>
+      <g id="Rectángulo_466815" data-name="Rectángulo 466815" transform="translate(978 9737)" fill="#68eae0" stroke="#0f654d" stroke-width="3">
+        <rect width="248" height="48" rx="14" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="251" height="51" rx="15.5" fill="none"/>
+      </g>
+      <g id="Rectángulo_466816" data-name="Rectángulo 466816" transform="translate(978 9805)" fill="#68eae0" stroke="#0f654d" stroke-width="3">
+        <rect width="248" height="48" rx="14" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="251" height="51" rx="15.5" fill="none"/>
+      </g>
+      <text id="Actor" transform="translate(399 9749.41)" fill="#12263f" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="63.275" y="18">Actor</tspan></text>
+      <g id="Grupo_1180562" data-name="Grupo 1180562" transform="translate(-6 -36)">
+        <g id="Rectángulo_466303" data-name="Rectángulo 466303" transform="translate(686 9761)" fill="#68c6ea" stroke="#0f654d" stroke-width="3">
+          <rect width="208" height="71" rx="14" stroke="none"/>
+          <rect x="-1.5" y="-1.5" width="211" height="74" rx="15.5" fill="none"/>
+        </g>
+        <text id="Sistema" transform="translate(706.949 9785.41)" fill="#12263f" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="54.348" y="18">Sistema</tspan></text>
+      </g>
+      <text id="Caso_de_uso_1" data-name="Caso de uso 1" transform="translate(1019 9680.615)" fill="#12263f" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="30.91" y="18">Caso de uso 1</tspan></text>
+      <text id="Caso_de_uso_2" data-name="Caso de uso 2" transform="translate(1019 9748.615)" fill="#12263f" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="30.91" y="18">Caso de uso 2</tspan></text>
+      <text id="Caso_de_uso_3" data-name="Caso de uso 3" transform="translate(1019 9816.615)" fill="#12263f" font-size="17" font-family="SegoeUI, Segoe UI"><tspan x="30.91" y="18">Caso de uso 3</tspan></text>
+      <path id="Trazado_1031672" data-name="Trazado 1031672" d="M42.652,0H0V136H45.85" transform="translate(932.15 9693)" fill="none" stroke="#0f654d" stroke-width="3"/>
+      <path id="Trazado_1031673" data-name="Trazado 1031673" d="M9404.149-1939.442h88.428" transform="translate(-8516.15 11700)" fill="none" stroke="#0f654d" stroke-width="3"/>
+      <path id="Trazado_1031674" data-name="Trazado 1031674" d="M9404.149-1939.442h88.428" transform="translate(-8812.577 11699.942)" fill="none" stroke="#0f654d" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
