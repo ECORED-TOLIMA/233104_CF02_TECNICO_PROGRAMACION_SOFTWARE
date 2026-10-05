@@ -242,7 +242,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2. Informe de especificación de requisitos y sus componentes
 
-    p El #[b informe de especificación de requisitos de <em>software</em>] es el documento formal que consolida y organiza toda la información relevante del sistema desde la perspectiva de lo que debe construirse. A diferencia del punto anterior (estructura estándar), aquí el enfoque está en el #[b documento como entregable real], utilizado  para validación, desarrollo y control del proyecto.
+    p El #[b informe de especificación de requisitos de #[i software]] es el documento formal que consolida y organiza toda la información relevante del sistema desde la perspectiva de lo que debe construirse. A diferencia del punto anterior (estructura estándar), aquí el enfoque está en el #[b documento como entregable real], utilizado  para validación, desarrollo y control del proyecto.
 
     .row.justify-content-center.mt-4
       .col-lg-10

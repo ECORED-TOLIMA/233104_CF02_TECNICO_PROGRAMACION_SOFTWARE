@@ -584,7 +584,7 @@
                 td.text-start Pendiente
 
     .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
-      .col-lg-4.d-none.d-lg-block
+      .col-lg-4.d-none.d-lg-block.order-2
         figure
           img(src='@/assets/curso/tema3/29.png', alt='', style="width: 390px").m-auto
       .col-lg-6

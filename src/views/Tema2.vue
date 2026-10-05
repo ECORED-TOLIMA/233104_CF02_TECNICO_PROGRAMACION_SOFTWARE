@@ -121,7 +121,7 @@
           .col-lg-12
             .row.align-items-center
               .col-lg-12
-                .cajon.color1.p-4
+                .cajon.color4.p-4
                   p El éxito de un proyecto de <em>software</em> depende en gran medida de la calidad de sus requisitos. Una mala interpretación o un control deficiente puede generar errores que afectan el funcionamiento del sistema y aumentan los costos de desarrollo.
 
         p.mt-2 Por el contrario, un adecuado análisis y una gestión eficiente permiten construir sistemas alineados con las necesidades del usuario, mejorar la comunicación entre equipos y facilitar la validación del <em>software</em>. En entornos actuales, estos procesos se integran dentro de metodologías iterativas, donde los requisitos evolucionan de manera controlada. Este enfoque permite adaptarse a cambios sin perder coherencia, garantizando un desarrollo continuo y eficiente.
