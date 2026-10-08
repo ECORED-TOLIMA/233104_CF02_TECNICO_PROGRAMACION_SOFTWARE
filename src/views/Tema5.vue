@@ -30,12 +30,12 @@
     p.mt-4 Se utilizan principalmente en las etapas iniciales del proceso y permiten recolectar información directamente de usuarios, <em>stakeholders</em> y fuentes documentales, asegurando que las necesidades del sistema queden registradas de forma clara y completa. Hacen parte las siguientes:
 
 
-    .row.justify-content-center 
-      .col-lg-8
+    .row.justify-content-center.align-items-center
+      .col-lg-7
         LineaTiempoD.color-primario.linea-bold
           .row(numero="1" titulo="Formularios digitales")
             .col-md-12.mb-4.mb-md-0
-              p facilitan la recolección estructurada de información mediante preguntas definidas previamente.
+              p Facilitan la recolección estructurada de información mediante preguntas definidas previamente.
     
           .row(numero="2" titulo="Entrevistas asistidas")
             .col-md-12.mb-4.mb-md-0
@@ -45,18 +45,18 @@
             .col-md-12.mb-4.mb-md-0
               p Apoyan el análisis de necesidades cuando se requiere recopilar información de un grupo amplio de usuarios.
 
-          .row(numero="3" titulo="Notas colaborativas")
+          .row(numero="4" titulo="Notas colaborativas")
             .col-md-12.mb-4.mb-md-0
               p Permiten registrar y compartir información en tiempo real entre los participantes del proceso.
     
-      .col-lg-4.d-none.d-lg-block
+      .col-lg-5.d-none.d-lg-block
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema5/2.png', alt='', style="width: 100%").m-auto
 
 
     .titulo-tres.mt-5: h3 Herramientas de modelado de requisitos
 
-    p.mt-4 Estas herramientas permiten transformar la información capturada en representaciones visuales del sistema, facilitando su comprensión, análisis y validación por parte de equipos técnicos y no técnicos. Se encuentran dentro de ellas:
+    p.mt-4 Estas herramientas permiten transformar la información capturada en representaciones visuales del sistema, facilitando su comprensión, análisis y validación por parte de equipos técnicos y no técnicos. Entre ellas se encuentran:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.bg-15.p-5(style="border-top-left-radius: 0px !important; border-bottom-left-radius: 0px !important;")
@@ -336,7 +336,7 @@
           img(src='@/assets/curso/tema5/21.svg', style='width:100px').m-auto
       
       .col
-        p El storyboard es una técnica visual que permite representar la <b>experiencia del usuario a través de secuencias gráficas</b>, mostrando cómo interactúa con el sistema paso a paso. Esta herramienta se utiliza principalmente en el diseño de interfaces y en la validación de flujos de interacción.
+        p El <em>storyboard</em> es una técnica visual que permite representar la <b>experiencia del usuario a través de secuencias gráficas</b>, mostrando cómo interactúa con el sistema paso a paso. Esta herramienta se utiliza principalmente en el diseño de interfaces y en la validación de flujos de interacción.
 
 
     .row.justify-content-center.mt-4
@@ -344,9 +344,9 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color4.p-4
-              p A diferencia de los casos de uso y las historias de usuario, el storyboard se enfoca en la experiencia visual, permitiendo identificar problemas de usabilidad antes de la implementación.
+              p A diferencia de los casos de uso y las historias de usuario, el <em>storyboard</em> se enfoca en la experiencia visual, permitiendo identificar problemas de usabilidad antes de la implementación.
 
-    p.mt-4.text-center Los elementos del storyboard se representan de la siguiente manera:
+    p.mt-4.text-center Los elementos del <em>storyboard</em> se representan de la siguiente manera:
 
 
     .row.justify-content-center.mt-4

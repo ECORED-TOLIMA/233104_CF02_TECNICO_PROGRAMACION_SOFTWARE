@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Gestión de requisitos y arquitectura de software',
+      tema: 'Gestión de requisitos y arquitectura de <em>software</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> valorar, a partir de situaciones propias del desarrollo de software, la comprensión integral de los procesos, técnicas y buenas prácticas que sustentan la gestión de requisitos, el modelado y el control del desarrollo, con el fin de evidenciar una aplicación coherente y fundamentada en contextos reales.',
+        '<b> Objetivo:</b> valorar, a partir de situaciones propias del desarrollo de <em>software</em>, la comprensión integral de los procesos, técnicas y buenas prácticas que sustentan la gestión de requisitos, el modelado y el control del desarrollo, con el fin de evidenciar una aplicación coherente y fundamentada en contextos reales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el propósito principal de la especificación de requisitos de software?',
+            '¿Cuál es el propósito principal de la especificación de requisitos de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -268,7 +268,7 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Qué representa el modelado en software?',
+          texto: '¿Qué representa el modelado en <em>software</em>?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -478,7 +478,8 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Cuál es la primera fase del ciclo de vida del software?',
+          texto:
+            '¿Cuál es la primera fase del ciclo de vida del <em>software</em>?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -568,7 +569,7 @@ export default {
         },
         {
           id: 19,
-          texto: '¿Qué es un commit en Git?',
+          texto: '¿Qué es un <em>commit</em> en Git?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [

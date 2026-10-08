@@ -299,7 +299,7 @@
       .col-lg-10
         .titulo-tres.mt-5: h3 Control del proceso de desarrollo
 
-        p.mt-4 El control del proceso de desarrollo es el conjunto de prácticas, mecanismos y métricas que permiten #[b monitorear, evaluar y ajustar el avance del proyecto de <em>software</em>], asegurando que se cumplan los objetivos definidos en términos de alcance, tiempo, costo y calidad.
+        p.mt-4 El control del proceso de desarrollo es el conjunto de prácticas, mecanismos y métricas que permiten #[b monitorear, evaluar y ajustar el avance del proyecto de #[i software]], asegurando que se cumplan los objetivos definidos en términos de alcance, tiempo, costo y calidad.
 
         .row.align-items-start.mt-4
           .col-lg-1.mb-lg-0.mb-4
@@ -314,7 +314,7 @@
         figure
           img(src='@/assets/curso/tema6/12.png', alt='', style="width: 390px").m-auto
       .col-lg-6
-        p teEn entornos modernos, el control se implementa como un proceso iterativo que acompaña cada fase del ciclo de vida, integrándose con metodologías ágiles, DevOps y gestión de proyectos.
+        p En entornos modernos, el control se implementa como un proceso iterativo que acompaña cada fase del ciclo de vida, integrándose con metodologías ágiles, DevOps y gestión de proyectos.
 
         p El control efectivo del desarrollo se basa en varios componentes que trabajan de forma integrada:
 
@@ -362,19 +362,19 @@
               ul.lista-ul--color
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Sprint planning: definición de tareas.
+                  p.mb-0 <em>Sprint planning</em>: definición de tareas.
 
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Daily meeting: seguimiento diario.
+                  p.mb-0 <em>Daily meeting</em>: seguimiento diario.
 
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Sprint review: validación de entregas.
+                  p.mb-0 <em>Sprint review</em>: validación de entregas.
 
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Retrospective: mejora del proceso.
+                  p.mb-0 <em>Retrospective</em>: mejora del proceso.
 
               .row.align-items-center.justify-content-center
                 .col-lg-12
@@ -424,11 +424,11 @@
     
           .row(numero="2" titulo="<em>Commit</em>")
             .col-md-12.mb-4.mb-md-0
-              p Representa una confirmación de cambios realizada por un desarrollador. Cada commit guarda una “fotografía” del estado del proyecto en un momento específico, incluyendo un mensaje descriptivo que explica qué se modificó y por qué.
+              p Representa una confirmación de cambios realizada por un desarrollador. Cada <em>commit</em> guarda una “fotografía” del estado del proyecto en un momento específico, incluyendo un mensaje descriptivo que explica qué se modificó y por qué.
     
           .row(numero="3" titulo="Historial")
             .col-md-12.mb-4.mb-md-0
-              p Es el registro cronológico de todos los commits realizados en el repositorio. Permite revisar la evolución del proyecto, identificar cuándo se hicieron cambios específicos y, si es necesario, regresar a versiones anteriores.
+              p Es el registro cronológico de todos los <em>commits</em> realizados en el repositorio. Permite revisar la evolución del proyecto, identificar cuándo se hicieron cambios específicos y, si es necesario, regresar a versiones anteriores.
 
           .row(numero="4" titulo="Branch")
             .col-md-12.mb-4.mb-md-0

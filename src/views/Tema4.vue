@@ -156,7 +156,7 @@
 
                 p Su aplicación es clave en el diseño de bases de datos, ya que permite garantizar la integridad, consistencia y eficiencia en el almacenamiento de la información. A través de este modelado se definen reglas como claves primarias, relaciones entre entidades y restricciones que aseguran la calidad de los datos.
 
-                p la integración entre sistemas, ya que establece una base común para el intercambio de información.
+                p Además, facilita la integración entre sistemas, ya que establece una base común para el intercambio de información.
               .col-lg-6
                 figure
                   img(src='@/assets/curso/tema4/14.png', alt='', style="width: 100%").m-auto

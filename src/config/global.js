@@ -162,7 +162,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_228145_DU.pdf',
+        download: 'downloads/233104_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -239,42 +239,42 @@ export default {
   referencias: [
     {
       referencia:
-        'Booch, G., Rumbaugh, J. & Jacobson, I. (2005). <em>El lenguaje unificado de modelado. Guía del usuario</em> (2.ª ed.). Addison-Wesley.',
+        'Booch, G., Rumbaugh, J. & Jacobson, I. (2005). El lenguaje unificado de modelado. Guía del usuario (2.ª ed.). Addison-Wesley.',
       link: '',
     },
     {
       referencia:
-        'Brown, S. (2018). <em>Software Architecture for Developers</em>. Leanpub.',
+        'Brown, S. (2018). Software Architecture for Developers. Leanpub.',
       link: '',
     },
     {
       referencia:
-        'Cockburn, A. (2001). <em>Writing Effective Use Cases</em>. Addison-Wesley.',
+        'Cockburn, A. (2001). Writing Effective Use Cases. Addison-Wesley.',
       link: '',
     },
     {
       referencia:
-        'IEEE. (1998). <em>IEEE Std 830-1998: Recommended Practice for Software Requirements Specifications</em>. IEEE.',
+        'IEEE. (1998). IEEE Std 830-1998: Recommended Practice for Software Requirements Specifications. IEEE.',
       link: '',
     },
     {
       referencia:
-        'International Institute of Business Analysis. (2015). <em>BABOK Guide</em> (3rd ed.).',
+        'International Institute of Business Analysis. (2015). BABOK Guide (3rd ed.).',
       link: '',
     },
     {
       referencia:
-        'Pressman, R. S. & Maxim, B. (2019). <em>Ingeniería del software: un enfoque práctico</em> (9.ª ed.). McGraw-Hill.',
+        'Pressman, R. S. & Maxim, B. (2019). Ingeniería del software: un enfoque práctico (9.ª ed.). McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Sommerville, I. (2016). <em>Ingeniería del software</em> (10.ª ed.). Pearson.',
+        'Sommerville, I. (2016). Ingeniería del software (10.ª ed.). Pearson.',
       link: '',
     },
     {
       referencia:
-        'Wiegers, K. & Beatty, J. (2013). <em>Software Requirements</em> (3rd ed.). Microsoft Press.',
+        'Wiegers, K. & Beatty, J. (2013). Software Requirements (3rd ed.). Microsoft Press.',
       link: '',
     },
   ],
@@ -319,6 +319,11 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
           nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -335,12 +340,22 @@ export default {
       autores: [
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

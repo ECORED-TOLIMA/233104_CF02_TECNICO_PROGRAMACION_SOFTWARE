@@ -475,7 +475,7 @@
                   p En este sentido, la trazabilidad funcional actúa como un mecanismo de control que vincula los requisitos con su ejecución real dentro del proyecto.
 
 
-    p.mt-4.text-center El enfoque funcional de la trazabilidad puede aplicarse en distintos niveles del sistema, dependiendo del grado de detalle requerido:[
+    p.mt-4.text-center El enfoque funcional de la trazabilidad puede aplicarse en distintos niveles del sistema, dependiendo del grado de detalle requerido:
 
 
     .row.justify-content-center

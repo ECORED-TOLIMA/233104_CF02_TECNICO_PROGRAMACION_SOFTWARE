@@ -26,7 +26,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-3
-                  p Es por ello, que este componente aborda estos aspectos desde una perspectiva integral, iniciando con la elaboración de especificaciones formales mediante el uso de plantillas ERS y estándares como el IEEE 830. A partir de esta base, se profundiza en el análisis de requisitos y en su gestión a lo largo del ciclo de vida del <em>software</em>, permitiendo mantener coherencia entre las necesidades del negocio y la solución desarrollada.
+                  p Es por ello que este componente aborda estos aspectos desde una perspectiva integral, iniciando con la elaboración de especificaciones formales mediante el uso de plantillas ERS y estándares como el IEEE 830. A partir de esta base, se profundiza en el análisis de requisitos y en su gestión a lo largo del ciclo de vida del <em>software</em>, permitiendo mantener coherencia entre las necesidades del negocio y la solución desarrollada.
 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mt-4
