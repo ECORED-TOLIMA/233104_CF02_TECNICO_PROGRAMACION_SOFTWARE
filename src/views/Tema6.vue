@@ -430,11 +430,11 @@
             .col-md-12.mb-4.mb-md-0
               p Es el registro cronológico de todos los <em>commits</em> realizados en el repositorio. Permite revisar la evolución del proyecto, identificar cuándo se hicieron cambios específicos y, si es necesario, regresar a versiones anteriores.
 
-          .row(numero="4" titulo="Branch")
+          .row(numero="4" titulo="<em>Branch</em>")
             .col-md-12.mb-4.mb-md-0
               p Es una línea de desarrollo independiente que se crea a partir del proyecto principal. Las ramas permiten trabajar en nuevas funcionalidades, correcciones o experimentos sin afectar directamente la versión estable del sistema.
 
-          .row(numero="5" titulo="Merge")
+          .row(numero="5" titulo="<em>Merge</em>")
             .col-md-12.mb-4.mb-md-0
               p Es el proceso mediante el cual los cambios realizados en una rama se integran nuevamente en otra, generalmente en la rama principal. El merge permite unificar el trabajo de distintos desarrolladores y consolidar avances en una sola versión del proyecto.
 
