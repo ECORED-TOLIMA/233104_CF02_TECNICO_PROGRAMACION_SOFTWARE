@@ -677,7 +677,7 @@
           .col-lg-12
             figure(data-aos="fade-down")
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/NCFRxkYaoFs?si=PBLidDCpmgaH8np6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/F8-UhN0Ri40?si=PJ9nJQzAq1_8nVsR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
