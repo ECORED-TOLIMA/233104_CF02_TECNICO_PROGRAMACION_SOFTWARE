@@ -125,7 +125,7 @@ export default {
         nombreRuta: 'tema6',
         numero: '6',
         titulo:
-          '6.	Ciclo de vida y control en el desarrollo de <em>software</em> ',
+          'Ciclo de vida y control en el desarrollo de <em>software</em> ',
         desarrolloContenidos: true,
         subMenu: [
           {
